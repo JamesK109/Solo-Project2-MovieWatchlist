@@ -20,3 +20,16 @@ https://james-movie-watchlist.netlify.app
   - browser refreshes
   - incognito/private sessions
   - different devices (when backend is hosted)
+
+---
+
+## Local Backend Setup (for Development & Demo)
+
+The PHP backend runs locally using XAMPP.
+
+### Steps:
+1. Place the backend folder movie-watchlist-api inside: C:\xampp\htdocs\
+2. Start **Apache** in the XAMPP Control Panel
+3. Go to https://james-movie-watchlist.netlify.app
+
+---
