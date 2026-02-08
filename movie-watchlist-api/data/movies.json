@@ -1,0 +1,242 @@
+[
+    {
+        "id": "m1",
+        "title": "The Shawshank Redemption",
+        "genre": "Drama",
+        "year": 1994,
+        "rating": 9.3,
+        "watched": true
+    },
+    {
+        "id": "m2",
+        "title": "The Godfather",
+        "genre": "Crime",
+        "year": 1972,
+        "rating": 9.2,
+        "watched": true
+    },
+    {
+        "id": "m3",
+        "title": "The Dark Knight",
+        "genre": "Action",
+        "year": 2008,
+        "rating": 9,
+        "watched": true
+    },
+    {
+        "id": "m4",
+        "title": "Pulp Fiction",
+        "genre": "Crime",
+        "year": 1994,
+        "rating": 8.9,
+        "watched": true
+    },
+    {
+        "id": "m5",
+        "title": "Inception",
+        "genre": "Sci-Fi",
+        "year": 2010,
+        "rating": 8.8,
+        "watched": true
+    },
+    {
+        "id": "m6",
+        "title": "Interstellar",
+        "genre": "Sci-Fi",
+        "year": 2014,
+        "rating": 8.6,
+        "watched": true
+    },
+    {
+        "id": "m7",
+        "title": "Spirited Away",
+        "genre": "Animation",
+        "year": 2001,
+        "rating": 8.6,
+        "watched": false
+    },
+    {
+        "id": "m8",
+        "title": "Parasite",
+        "genre": "Thriller",
+        "year": 2019,
+        "rating": 8.5,
+        "watched": false
+    },
+    {
+        "id": "m9",
+        "title": "The Matrix",
+        "genre": "Sci-Fi",
+        "year": 1999,
+        "rating": 8.7,
+        "watched": true
+    },
+    {
+        "id": "m10",
+        "title": "Gladiator",
+        "genre": "Action",
+        "year": 2000,
+        "rating": 8.5,
+        "watched": true
+    },
+    {
+        "id": "m11",
+        "title": "Whiplash",
+        "genre": "Drama",
+        "year": 2014,
+        "rating": 8.5,
+        "watched": false
+    },
+    {
+        "id": "m12",
+        "title": "The Lion King",
+        "genre": "Animation",
+        "year": 1994,
+        "rating": 8.5,
+        "watched": true
+    },
+    {
+        "id": "m13",
+        "title": "Fight Club",
+        "genre": "Drama",
+        "year": 1999,
+        "rating": 8.8,
+        "watched": true
+    },
+    {
+        "id": "m14",
+        "title": "Forrest Gump",
+        "genre": "Drama",
+        "year": 1994,
+        "rating": 8.8,
+        "watched": true
+    },
+    {
+        "id": "m15",
+        "title": "The Prestige",
+        "genre": "Mystery",
+        "year": 2006,
+        "rating": 8.5,
+        "watched": false
+    },
+    {
+        "id": "m16",
+        "title": "The Departed",
+        "genre": "Crime",
+        "year": 2006,
+        "rating": 8.5,
+        "watched": false
+    },
+    {
+        "id": "m17",
+        "title": "Toy Story",
+        "genre": "Animation",
+        "year": 1995,
+        "rating": 8.3,
+        "watched": true
+    },
+    {
+        "id": "m18",
+        "title": "Avengers: Endgame",
+        "genre": "Action",
+        "year": 2019,
+        "rating": 8.4,
+        "watched": true
+    },
+    {
+        "id": "m19",
+        "title": "Joker",
+        "genre": "Drama",
+        "year": 2019,
+        "rating": 8.4,
+        "watched": false
+    },
+    {
+        "id": "m20",
+        "title": "Blade Runner 2049",
+        "genre": "Sci-Fi",
+        "year": 2017,
+        "rating": 8,
+        "watched": false
+    },
+    {
+        "id": "m21",
+        "title": "Alien",
+        "genre": "Horror",
+        "year": 1979,
+        "rating": 8.5,
+        "watched": false
+    },
+    {
+        "id": "m22",
+        "title": "The Thing",
+        "genre": "Horror",
+        "year": 1982,
+        "rating": 8.2,
+        "watched": false
+    },
+    {
+        "id": "m23",
+        "title": "Mad Max: Fury Road",
+        "genre": "Action",
+        "year": 2015,
+        "rating": 8.1,
+        "watched": true
+    },
+    {
+        "id": "m24",
+        "title": "Her",
+        "genre": "Romance",
+        "year": 2013,
+        "rating": 8,
+        "watched": false
+    },
+    {
+        "id": "m25",
+        "title": "Get Out",
+        "genre": "Horror",
+        "year": 2017,
+        "rating": 7.7,
+        "watched": false
+    },
+    {
+        "id": "m26",
+        "title": "The Social Network",
+        "genre": "Drama",
+        "year": 2010,
+        "rating": 7.7,
+        "watched": false
+    },
+    {
+        "id": "m27",
+        "title": "La La Land",
+        "genre": "Musical",
+        "year": 2016,
+        "rating": 8,
+        "watched": false
+    },
+    {
+        "id": "m28",
+        "title": "Coco",
+        "genre": "Animation",
+        "year": 2017,
+        "rating": 8.4,
+        "watched": true
+    },
+    {
+        "id": "m29",
+        "title": "Knives Out",
+        "genre": "Mystery",
+        "year": 2019,
+        "rating": 7.9,
+        "watched": false
+    },
+    {
+        "id": "m30",
+        "title": "Dune",
+        "genre": "Sci-Fi",
+        "year": 2021,
+        "rating": 8,
+        "watched": false
+    }
+]

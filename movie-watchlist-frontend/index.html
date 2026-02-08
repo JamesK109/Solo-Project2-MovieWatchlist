@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Watchlist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>🎬 Movie Watchlist</h1>
+  </header>
+
+  <nav class="nav">
+    <button id="btnViewList" class="nav-btn active">List</button>
+    <button id="btnViewForm" class="nav-btn">Add / Edit</button>
+    <button id="btnViewStats" class="nav-btn">Stats</button>
+  </nav>
+
+  <main class="container">
+
+    <!-- LIST VIEW -->
+    <section id="viewList" class="view">
+      <div class="row space-between">
+        <h2>All Movies</h2>
+        <div class="row gap">
+          <input id="searchInput" class="input" placeholder="Search title..." />
+          <select id="filterWatched" class="input">
+            <option value="all">All</option>
+            <option value="watched">Watched</option>
+            <option value="unwatched">Unwatched</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Genre</th>
+              <th>Year</th>
+              <th>Rating</th>
+              <th>Watched</th>
+              <th class="actions-col">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="moviesTbody"></tbody>
+        </table>
+      </div>
+
+      <div class="row space-between" style="margin-top:12px;">
+        <button id="btnPrevPage" class="btn secondary">Previous</button>
+        <div class="muted">Page <span id="pageNum">1</span> of <span id="pageTotal">1</span></div>
+        <button id="btnNextPage" class="btn secondary">Next</button>
+      </div>
+
+      <p id="emptyMsg" class="muted" hidden>No movies found.</p>
+    </section>
+
+    <!-- FORM VIEW -->
+    <section id="viewForm" class="view hidden">
+      <div class="row space-between">
+        <h2 id="formTitle">Add Movie</h2>
+        <button id="btnNew" class="btn secondary">+ New</button>
+      </div>
+
+      <form id="movieForm" class="card">
+        <div class="grid">
+          <label class="field">
+            <span>Title <span class="req">*</span></span>
+            <input id="title" class="input" type="text" maxlength="80" required />
+          </label>
+
+          <label class="field">
+            <span>Genre <span class="req">*</span></span>
+            <input id="genre" class="input" type="text" maxlength="40" required />
+          </label>
+
+          <label class="field">
+            <span>Year <span class="req">*</span></span>
+            <input id="year" class="input" type="number" required />
+          </label>
+
+          <label class="field">
+            <span>Rating (1–10)</span>
+            <input id="rating" class="input" type="number" step="0.1" />
+          </label>
+
+          <label class="field checkbox">
+            <input id="watched" type="checkbox" />
+            <span>Watched</span>
+          </label>
+        </div>
+
+        <p id="formError" class="error" hidden></p>
+
+        <div class="row gap">
+          <button id="btnSubmit" class="btn primary" type="submit">Add Movie</button>
+          <button id="btnCancelEdit" class="btn secondary" type="button" hidden>Cancel Edit</button>
+        </div>
+
+        <p class="muted small">
+          Required fields: Title, Genre, Year. Movies are saved on the server (JSON persistence).
+        </p>
+
+      </form>
+    </section>
+
+    <!-- STATS VIEW -->
+    <section id="viewStats" class="view hidden">
+      <h2>Stats</h2>
+
+      <div class="stats-grid">
+        <div class="stat">
+          <div class="stat-label">Total Movies</div>
+          <div id="statTotal" class="stat-value">0</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Watched</div>
+          <div id="statWatched" class="stat-value">0</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Average Rating</div>
+          <div id="statAvgRating" class="stat-value">—</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Top Genre</div>
+          <div id="statTopGenre" class="stat-value">—</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Genre Breakdown</h3>
+        <div id="genreBreakdown" class="muted"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
